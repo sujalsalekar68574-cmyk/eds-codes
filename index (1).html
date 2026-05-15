@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sujal-EDS</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      padding: 40px 60px;
+      color: #333;
+    }
+
+    h1 {
+      color: #1a7abf;
+      font-size: 2.2rem;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+
+    .checklist {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .checklist li {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 1.05rem;
+      color: #333;
+    }
+
+    .checklist li input[type="checkbox"] {
+      width: 18px;
+      height: 18px;
+      accent-color: #1a7abf;
+      cursor: pointer;
+      flex-shrink: 0;
+    }
+
+    .checklist li a {
+      color: #1ab3b3;
+      text-decoration: none;
+      font-style: italic;
+    }
+
+    .checklist li a:hover {
+      text-decoration: underline;
+    }
+
+    /* Indented practicals */
+    .checklist li.indent {
+      padding-left: 24px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Sujal-EDS</h1>
+
+  <ul class="checklist">
+    <li>
+      <input type="checkbox" checked />
+      <span>Video Demonstration <a href="#">Watch the video here</a></span>
+    </li>
+    <li>
+      <input type="checkbox" checked />
+      <span>CodeTantra Completion Link <a href="#">View my CodeTantra completion</a></span>
+    </li>
+    <li class="indent">
+      <input type="checkbox" checked />
+      <span>Download cisco Certificate <a href="#">Download Certificate</a></span>
+    </li>
+    <li class="indent">
+      <input type="checkbox" checked />
+      <span>Practical 1 <a href="#">practical 1</a></span>
+    </li>
+    <li class="indent">
+      <input type="checkbox" checked />
+      <span>Practical 2 <a href="#">practical 2</a></span>
+    </li>
+    <li class="indent">
+      <input type="checkbox" checked />
+      <span>Practical 3 <a href="#">practical 3</a></span>
+    </li>
+    <li class="indent">
+      <input type="checkbox" checked />
+      <span>Practical 4 <a href="#">practical 4</a></span>
+    </li>
+    <li class="indent">
+      <input type="checkbox" checked />
+      <span>Practical 5 <a href="#">practical 5</a></span>
+    </li>
+  </ul>
+
+</body>
+</html>
